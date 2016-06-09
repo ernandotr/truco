@@ -1,4 +1,4 @@
-package br.com.ernando.truco;
+package br.com.truco;
 
 import javax.swing.JOptionPane;
 
@@ -20,14 +20,10 @@ public class Jogo {
 	}
 
 	private  void start() {
-		
-		construirBaralho();
 		jogadorA = new JogadorMaquina();
 		jogadorA.setNome("Jogador virtual");
 		jogadorB = new JogadorUsuario();
 		jogadorB.setNome("Você");
-		
-//		imprimirBaralho(baralho.getCartas());
 		
 		boolean temVecendor = false;
 		while(!temVecendor){

@@ -1,4 +1,4 @@
-package br.com.ernando.truco;
+package br.com.truco;
 
 public class Carta implements Comparable<Carta>{
 

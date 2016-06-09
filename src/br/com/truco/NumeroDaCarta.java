@@ -1,4 +1,4 @@
-package br.com.ernando.truco;
+package br.com.truco;
 
 public enum NumeroDaCarta {
 	AS("A"),
