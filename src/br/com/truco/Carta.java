@@ -1,3 +1,5 @@
+// Define o tipo carta para o jogo de truco
+
 package br.com.truco;
 
 public class Carta implements Comparable<Carta>{
